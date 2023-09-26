@@ -1,0 +1,35 @@
+.button {
+  width: 10em;
+  height: 3em;
+  border-radius: 8px;
+  border: 0.15em solid rgb(162, 63, 255);
+  color: rgb(162, 63, 255);
+  background-color: #282936;
+  transition: all 0.5s ease;
+}
+
+.button .text {
+  display: none;
+}
+
+.button:hover > .text {
+  display: block;
+}
+
+.button:hover > svg {
+  display: none;
+}
+
+.button:hover {
+  background-color: rgb(162, 63, 255);
+  color: #fff;
+}
+
+.button svg {
+  width: 1.5em;
+  margin-top: 3px;
+}
+
+nav {
+  background-color: white;
+}

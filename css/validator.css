@@ -1,0 +1,48 @@
+
+h1{
+   color: black;
+}
+
+.form{
+
+   max-width: 550px;
+   margin: 0px auto;
+   color:  #fff;
+   padding:30px 0;
+}
+.form__body{
+   color: black;
+}
+.form__title{
+   font-size: 40px;
+   font-weight: 400px;
+   margin:0px 0px 30px 0px ;
+}
+.form__item{
+   margin:0px 10px 20px 10px ;
+
+}
+.form__label{
+   font-size: 18px;
+   display: block;
+   margin:0px 0px 10px 0px ;
+}
+
+.form__input{
+   height: 30px;
+   padding: 0px 20px;
+   border-radius: 5px;
+   width: 80%;
+   font-size: 16px;
+   margin: 0px 10px 0px 10px;
+}
+
+.border-shadow{
+   border: 2px solid black;
+   border-radius: 6px;
+
+}
+
+.checkbox{
+   margin:0px 10px 10px 10px ;
+}
